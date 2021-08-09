@@ -1,0 +1,359 @@
+/*background-color: #0a85ed;
+  font-family: Serif,sans-serif;
+font-family: 'Source Serif Pro', serif;
+    background-color:rgb(89, 141, 224);
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* border:1px solid black; */
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.mainBox   /*Contains whole div*/
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.navBox   /*Navbox contains navbar*/
+{
+    border:none;
+    width: 100%;;
+    margin:10px 0px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navbar /*Contains attributes of navbar*/
+{  
+    overflow: hidden;
+    /* background-color:rgb(89, 141, 224); */
+    /* position:fixed; */
+    color:black;
+    top:0;
+    width:100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.logo
+{
+    border:none;    
+ margin-left: 70px;
+}
+.logo img
+{
+    border:none;
+    width:122px;
+}
+.menu
+{
+    border:none;
+    margin-right: 70px;
+}
+.menu a
+{
+    border:none;
+     text-decoration: none;
+     font-size: 22px;
+     color: black;
+     padding:10px;
+   
+
+}
+.menu a:hover{
+    /* border-radius: 15px; */
+    color:rgb(64, 64, 209);
+    text-decoration: underline;
+    /* border-bottom: 2px solid rgb(64, 64, 209); ; */
+    
+}
+.btnFixed
+{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width:50px;
+    height: 50px;
+    padding:12px 10px;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    background-color: grey;
+    border:2px solid black;
+    border-radius: 50%;
+}
+
+
+
+
+/*hero body*/
+.heroBox
+{
+    height: 480px;
+    margin-top: 30px;
+    margin-left: 70px; 
+    margin-right: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.heading h1
+{
+    /* border:5px solid red; */
+    text-align: center;
+    line-height: 1.1;
+    font-size: 58px;
+    padding: 0px 15px;
+    text-align: left;
+    margin-top: -40px;
+}
+.heading h5
+{
+    font-size:20px;
+    font-weight: 200px;
+    padding: 0px 15px;
+    text-align: left;
+    color:#31343C;
+
+}
+.btnDiv
+{
+    text-align: left;
+    margin-top: 15px;
+}
+.btn1
+{
+    /* border:3px solid red; */
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(89, 141, 224);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* text-align: left; */
+    
+}
+.btn1:hover{
+    
+    box-shadow: 5px 5px rgba(75, 74, 74,.3);
+    transform: scale(1.05);
+}
+.img img
+{
+    width:600px;
+    height:400px;;
+
+}
+
+
+/*Hero Body Ends Here*/
+
+
+
+
+
+
+
+
+
+
+
+/*Video Explanation*/
+.videoBox
+{
+    /* border:1px solid black; */
+    width: 100%;
+    /* height: 550px; */
+   /* margin-top: 40px; */
+  padding:20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+   /* background-color:rgb(238, 243, 242); */
+}
+.videoBox h1
+{
+    /* margin-bottom:40px; */
+    font-size: 38px;
+    margin-bottom: 5px;
+    /* text-shadow:2px 2px yellow; */
+    /* text-decoration: underline; */
+}
+.videoBox h3
+{
+    color: rgb(49, 45, 45);
+    margin-bottom: 10px;
+}
+.videoFlexBox
+{
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svgImg,.videoPlayback
+{
+    margin:10px 30px;
+}
+
+/* .videoPlayback
+{
+   /* border:1px solid black; */
+   /* z-index: -1; */
+   /* box-shadow: 5px 5px grey; *//*
+} */
+.serviceBox
+{
+    /* border:1px solid black; */
+    /* height: auto; */
+    margin:35px 70px;
+    padding: 20px;
+    /* border:3px solid red; */
+}
+.serviceBox h1{
+    padding:10px;
+}
+.serviceContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div1,.div2,.div3
+{
+    /* border:1px solid black; */
+    width:250px;
+    height: 350px;
+    margin:30px 30px;
+    border:.1px solid grey;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px black;
+    text-align: center;
+}
+.div1 h3,.div2 h3,.div3 h3
+{
+    padding: 15px;
+}
+.div1 img,.div2 img,.div3 img
+{
+    width: 100%;
+    margin:10px 0px;
+}
+.div1 p,.div2 p,.div3 p
+{
+   padding:7px;
+}
+.div1:hover ,.div2:hover ,.div3:hover
+{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 5px rgba(53, 52, 52,.4);
+    cursor: pointer;
+
+}
+
+/*Service Box ends here*/
+
+
+
+
+
+
+.companyBox
+{
+    margin:0px 70px;
+    margin-bottom: 20px;
+}
+.companyBox h1
+{
+    padding:10px;
+    margin:15px ;
+}
+.company
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.company img
+{
+    margin:10px 30px;
+}
+
+
+
+/*Contact  */
+.contact
+
+{
+    width: 100%;
+    background-color: #31343C;
+    height: 250px;
+}
+.contact h1
+{
+    padding:10px;
+    color: white;
+}
+.contactUs
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:20px 85px;
+}
+.contactUs .divAdd
+{
+    width:500px;
+    margin:0px 40px;
+    color: white;
+
+
+}
+.contactUs .divAdd p
+{
+    margin:10px;
+    text-align: left;
+}
+.contactUs .divBtn
+{
+    margin:0px 100px;
+    color: white;
+}
+.contactUs .divBtn p
+{
+    margin:5px;
+    text-align: left;
+}
+
+/*media Query*/
+/* @media only screen and (max-width: 600px) {
+    .navBox
+    {
+        border:3px solid black;
+        margin:0;
+    }
+    .navbar
+    {
+        width: 100%;
+        height: 60px;
+    }
+  } */
+  
+
